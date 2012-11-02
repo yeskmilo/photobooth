@@ -1,0 +1,26 @@
+[26-Oct-2012 13:45:20] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:45:53] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:46:05] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:46:29] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 96
+[26-Oct-2012 13:47:07] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:49:54] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:50:49] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:52:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:52:58] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[26-Oct-2012 13:53:56] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/modules/mod_registro/mod_registro.php on line 95
+[29-Oct-2012 16:59:39] PHP Warning:  Invalid argument supplied for foreach() in /home1/tuladoda/public_html/proexport/components/com_gallery/views/gallery/tmpl/default.php on line 8
+[29-Oct-2012 17:09:10] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/tuladoda/public_html/proexport/components/com_gallery/views/gallery/tmpl/default.php on line 8
+[29-Oct-2012 17:09:13] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/tuladoda/public_html/proexport/components/com_gallery/views/gallery/tmpl/default.php on line 8
+[29-Oct-2012 17:10:10] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/tuladoda/public_html/proexport/components/com_gallery/views/gallery/tmpl/default.php on line 8
+[30-Oct-2012 05:37:50] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[30-Oct-2012 05:39:08] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[30-Oct-2012 05:40:07] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[30-Oct-2012 05:41:18] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[30-Oct-2012 05:41:43] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[30-Oct-2012 05:42:23] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[30-Oct-2012 05:42:25] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[30-Oct-2012 05:43:42] PHP Fatal error:  Call to a member function getData() on a non-object in /home1/tuladoda/public_html/proexport/components/com_gallery/views/search/view.html.php on line 35
+[31-Oct-2012 16:24:03] PHP Fatal error:  Call to undefined function  getvar() in /home1/tuladoda/public_html/proexport/components/com_gallery/controller.php on line 31
+[01-Nov-2012 07:13:35] PHP Fatal error:  Call to undefined function  photobooth_add_watermark() in /home1/tuladoda/public_html/proexport/components/com_gallery/views/gallery/tmpl/default.php on line 29
+[01-Nov-2012 07:15:45] PHP Fatal error:  Call to undefined function  photobooth_add_watermark() in /home1/tuladoda/public_html/proexport/components/com_gallery/views/gallery/tmpl/default.php on line 29
+[01-Nov-2012 07:42:23] PHP Warning:  readfile(images/com_fwgallery/files/undefined/marca/) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home1/tuladoda/public_html/proexport/descargar.php on line 13

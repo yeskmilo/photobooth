@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+    <name>FW Gallery</name>
+    <creationDate>13 September 2012</creationDate>
+    <author>Fastw3b - We develop while you are thinking</author>
+    <authorEmail>dev@fastw3b.net</authorEmail>
+    <authorUrl>http://www.fastw3b.net</authorUrl>
+    <copyright>Copyright (C) 2012 Fastw3b. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>2.0</version>
+    <description><![CDATA[
+<p style="text-align: center;"><img style="margin-bottom: 20px; vertical-align: top;" alt="thank-yu3" src="components/com_fwgallery/assets/images/thank-yu3.png" height="77" width="960" /></p>
+<table style="width: 980px; height: 246px;" border="0">
+<tbody>
+<tr>
+<td><img style="float: left;" alt="01_c_gallery" src="components/com_fwgallery/assets/images/01_c_gallery.png" height="236" width="178" /></td>
+<td>
+<p><strong>FW Gallery has been installed successfully on your website. Many thanks for your choice!</strong></p>
+<p>&nbsp;</p>
+<p><strong>What to do next?</strong></p>
+<p>1. Go to Menus &gt;&gt; Main Menu &gt;&gt; click on New button</p>
+<p>2. Assign FW Gallery menu items to your website menu</p>
+<p>3. Go to FW Gallery &gt;&gt; Galleries to create your first photo gallery.</p>
+<ol> </ol></td>
+<td><img style="float: right;" alt="fw_gal_on_iphone_for_message" src="components/com_fwgallery/assets/images/fw_gal_on_iphone_for_message.png" height="172" width="264" /></td>
+</tr>
+</tbody>
+</table>
+<br />
+<p style="text-align: center;"><span style="font-size: 18pt;"><strong>Improve your photo gallery with extra designs!</strong></span></p>
+<p style="text-align: left;"> </p>
+<table style="text-align: center; width: 822px; height: 419px;" align="center" border="0">
+<tbody>
+<tr>
+<td valign="top">
+<p style="text-align: center;"><img alt="preview_gallery_01" src="components/com_fwgallery/assets/images/preview_gallery_01.png" height="148" width="199" /></p>
+<div style="text-align: center; clear: both;"><span style="font-size: 8pt;">Price: <strong>$9.99 </strong></span></div>
+<div style="text-align: center;"><a target="_blank" href="http://www.fastw3b.net/joomla-extensions/product/61-fw-gallery-light-plus-template.html"><span style="font-size: 8pt;">Buy now &gt;&gt;</span></a></div>
+</td>
+<td valign="top">
+<p style="text-align: center;"><img alt="preview_image_video" src="components/com_fwgallery/assets/images/preview_image_video.png" height="150" width="206" /></p>
+<div style="text-align: center; clear: both;"><a target="_blank" href="http://video.fwgallery.com/my-video-gallery.html"><span style="font-size: 8pt;">Demo &gt;&gt; </span></a></div>
+<div style="text-align: center; clear: both;"><span style="font-size: 8pt;">Price: <strong>$14.99</strong></span></div>
+<div style="text-align: center;"><a target="_blank" href="http://www.fastw3b.net/joomla-extensions/product/62-fw-gallery-video-template.html"><span style="font-size: 8pt;">Buy now &gt;&gt; </span></a></div>
+</td>
+<td valign="top">
+<p style="text-align: center;"><img alt="template_preview_01" src="components/com_fwgallery/assets/images/template_preview_01.png" height="150" width="206" /></p>
+<div style="text-align: center; clear: both;"></div>
+<div style="text-align: center; clear: both;"><span style="font-size: 8pt;"><a target="_blank" href="http://www.fastw3b.net/joomla-extensions/product/60-fw-gallery-light-template.html"><strong>Free</strong> download &gt;&gt;</a><br /></span></div>
+<div style="text-align: center; clear: both;"><span style="font-size: 8pt;"><br /></span></div>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p style="text-align: center;"><img alt="preview_gallery_notes" src="components/com_fwgallery/assets/images/preview_gallery_notes.png" height="150" width="206" /></p>
+<div style="text-align: center; clear: both;"><a target="_blank" href="http://fwgallery.fastw3b.net/ru/galleries.html"><span style="font-size: 8pt;">Demo&gt;&gt; </span></a></div>
+<div style="text-align: center; clear: both;"><span style="font-size: 8pt;">Price: <strong>$14.99 </strong></span></div>
+<div style="text-align: center;"><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/100-fw-gallery-notes-template.html"><span style="font-size: 8pt;">Buy now&gt;&gt;</span></a></div>
+</td>
+<td valign="top">
+<p style="text-align: center;"><img alt="preview_gallery_ribbon" src="components/com_fwgallery/assets/images/preview_gallery_ribbon.png" height="150" width="206" /></p>
+<div style="text-align: center; clear: both;"><span style="font-size: 8pt;">Price: <strong>$9.99 </strong></span></div>
+<div style="text-align: center;"><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/98-fw-gallery-ribbon-template.html"><span style="font-size: 8pt;">Buy now&gt;&gt;</span></a></div>
+</td>
+<td style="text-align: center;" valign="top">
+<div style="width: 206px; display: inline-block;">
+<div style="text-align: center; clear: both;">
+<p style="text-align: center;"><img alt="preview_gallery_stylish1" src="components/com_fwgallery/assets/images/preview_gallery_stylish1.png" height="150" width="206" /></p>
+<span style="font-size: 8pt;">Price: <strong>$9.99</strong></span></div>
+<div style="text-align: center; clear: both;"><span style="font-size: 8pt;"> <a target="_blank" href="http://fastw3b.net/joomla-extensions/product/99-fw-gallery-stylish-template.html">Buy now&gt;&gt;</a></span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left;"><span style="font-size: 8pt;"> </span></p>
+<div style="text-align: center;"></div>
+<div style="text-align: center; clear: both;"></div>
+<div style="text-align: center; clear: both;"></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;"><strong>Useful links:</strong></span></p>
+<ul>
+<li>Getting started <a target="_blank" href="http://fastw3b.net/support/fw-gallery.html">documentation &gt;&gt;</a></li>
+<li>FW Gallery <a target="_blank" href="http://fastw3b.net/joomla-extensions/fw-gallery.html">add-ons &gt;&gt;</a></li>
+<li>Read FW Gallery <a target="_blank" href="http://fastw3b.net/latest-news.html">latest news &gt;&gt;</a></li>
+<li>View <a target="_blank" href="http://extensions.joomla.org/extensions/photos-a-images/photo-gallery/13185">JED reviews and leave yours &gt;&gt;</a></li>
+<li>Follow FW Gallery news on <a target="_blank" href="http://twitter.com/#!/Fastw3b">Twitter</a> or <a target="_blank" href="http://www.facebook.com/pages/Fastw3b/165610930146118">Facebook &gt;&gt;</a></li>
+<li>Watch our video tutorial on <a target="_blank" href="http://www.youtube.com/user/fastw3b">Youtube &gt;&gt;</a></li>
+<li>Have any questions? Feel free to <a target="_blank" href="http://fastw3b.net/contact-us.html">contact us &gt;&gt;</a></li>
+</ul>
+<div>Developed by <a target="_blank" href="http://fastw3b.net/">Fastw3b</a></div>
+<div>Copyright © 2007 - 2012 Fastw3b</div>
+	]]></description>
+    <install type="component">
+        <sql>
+            <file driver="mysql" charset="utf8">install.sql</file> 
+        </sql>
+    </install>
+    <installfile>install.php</installfile>
+    <files folder="site">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>fwgallery.php</filename>
+        <filename>router.php</filename>
+        <folder>assets</folder>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+	<languages folder="site/language">
+        <language tag="de-DE">de-DE/de-DE.com_fwgallery.ini</language>
+        <language tag="el-GR">el-GR/el-GR.com_fwgallery.ini</language>
+        <language tag="en-GB">en-GB/en-GB.com_fwgallery.ini</language>
+        <language tag="es-ES">es-ES/es-ES.com_fwgallery.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.com_fwgallery.ini</language>
+        <language tag="it-IT">it-IT/it-IT.com_fwgallery.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.com_fwgallery.ini</language>
+        <language tag="uk-UA">uk-UA/uk-UA.com_fwgallery.ini</language>
+	</languages>
+    <administration>
+        <menu img="components/com_fwgallery/assets/images/fwgalleryicon.png">FW Gallery</menu>
+        <submenu>
+            <menu img="components/com_fwgallery/assets/images/galleries.png" view="fwgallery">Galleries</menu>
+            <menu img="components/com_fwgallery/assets/images/images.png" view="files">Images</menu>
+            <menu img="components/com_fwgallery/assets/images/plugins.png" view="plugins">Plugins</menu>
+            <menu img="components/com_fwgallery/assets/images/templates.png" view="templates">Templates</menu>
+            <menu img="components/com_fwgallery/assets/images/iphone.png" view="iphone">iPhone App</menu>
+            <menu img="components/com_fwgallery/assets/images/fwconfig.png" view="config">Config</menu>
+        </submenu>
+        <files folder="admin">
+            <filename>install.php</filename>
+            <filename>install.sql</filename>
+            <filename>controller.php</filename> 
+            <filename>index.html</filename> 
+            <filename>fwgallery.php</filename> 
+            <folder>assets</folder>
+            <folder>elements</folder>
+            <folder>elements16</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="admin/language">
+            <language tag="de-DE">de-DE/de-DE.com_fwgallery.ini</language>
+            <language tag="de-DE">de-DE/de-DE.com_fwgallery.sys.ini</language>
+            <language tag="de-DE">de-DE/de-DE.com_fwgallery.menu.ini</language>
+            <language tag="el-GR">el-GR/el-GR.com_fwgallery.ini</language>
+            <language tag="el-GR">el-GR/el-GR.com_fwgallery.sys.ini</language>
+            <language tag="el-GR">el-GR/el-GR.com_fwgallery.menu.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_fwgallery.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_fwgallery.sys.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_fwgallery.menu.ini</language>
+            <language tag="es-ES">es-ES/es-ES.com_fwgallery.ini</language>
+            <language tag="es-ES">es-ES/es-ES.com_fwgallery.sys.ini</language>
+            <language tag="es-ES">es-ES/es-ES.com_fwgallery.menu.ini</language>
+            <language tag="fr-FR">fr-FR/fr-FR.com_fwgallery.ini</language>
+            <language tag="fr-FR">fr-FR/fr-FR.com_fwgallery.sys.ini</language>
+            <language tag="fr-FR">fr-FR/fr-FR.com_fwgallery.menu.ini</language>
+            <language tag="it-IT">it-IT/it-IT.com_fwgallery.ini</language>
+            <language tag="it-IT">it-IT/it-IT.com_fwgallery.sys.ini</language>
+            <language tag="it-IT">it-IT/it-IT.com_fwgallery.menu.ini</language>
+            <language tag="ru-RU">ru-RU/ru-RU.com_fwgallery.ini</language>
+            <language tag="ru-RU">ru-RU/ru-RU.com_fwgallery.sys.ini</language>
+            <language tag="ru-RU">ru-RU/ru-RU.com_fwgallery.menu.ini</language>
+            <language tag="uk-UA">uk-UA/uk-UA.com_fwgallery.ini</language>
+            <language tag="uk-UA">uk-UA/uk-UA.com_fwgallery.sys.ini</language>
+            <language tag="uk-UA">uk-UA/uk-UA.com_fwgallery.menu.ini</language>
+        </languages>
+    </administration>
+    <params>
+		<param name="im_th_w" type="text" default="120" label="" description="" />
+		<param name="im_th_h" type="text" default="120" label="" description="" />
+		<param name="im_mid_w" type="text" default="200" label="" description="" />
+		<param name="im_mid_h" type="text" default="200" label="" description="" />
+		<param name="im_max_w" type="text" default="600" label="" description="" />
+		<param name="im_max_h" type="text" default="600" label="" description="" />
+		<param name="gallery_color" type="text" default="aaaaaa" label="" description="" />
+		<param name="gallery_box_width" type="text" default="160" label="" description="" />
+		<param name="image_box_width" type="text" default="240" label="" description="" />
+		<param name="ordering_galleries" type="text" default="name" label="" description="" />
+		<param name="ordering_images" type="text" default="new" label="" description="" />
+		<param name="use_watermark" type="text" default="0" label="" description="" />
+		<param name="watermark_file" type="text" default="" label="" description="" />
+		<param name="use_voting" type="text" default="1" label="" description="" />
+		<param name="public_voting" type="text" default="1" label="" description="" />
+		<param name="galleries_a_row" type="text" default="3" label="" description="" />
+		<param name="images_a_row" type="text" default="3" label="" description="" />
+		<param name="galleries_limit" type="text" default="20" label="" description="" />
+		<param name="images_limit" type="text" default="20" label="" description="" />
+		<param name="display_total_galleries" type="text" default="1" label="" description="" />
+		<param name="display_galleries_limit_selector" type="text" default="1" label="" description="" />
+		<param name="display_gallery_limit_selector" type="text" default="1" label="" description="" />
+		<param name="display_owner_gallery" type="text" default="1" label="" description="" />
+		<param name="display_owner_image" type="text" default="1" label="" description="" />
+		<param name="display_date_gallery" type="text" default="1" label="" description="" />
+		<param name="display_gallery_sorting" type="text" default="1" label="" description="" />
+		<param name="display_name_gallery" type="text" default="1" label="" description="" />
+		<param name="display_name_image" type="text" default="1" label="" description="" />
+		<param name="display_date_image" type="text" default="1" label="" description="" />
+		<param name="display_image_views" type="text" default="1" label="" description="" />
+		<param name="display_user_copyright" type="text" default="1" label="" description="" />
+		<param name="date_format" type="text" default="%B %d, %Y" label="" description="" />
+		<param name="new_days" type="text" default="7" label="" description="" />
+		<param name="hide_fw_copyright" type="text" default="0" label="" description="" />
+		<param name="template" type="text" default="simple" label="" description="" />
+		<param name="im_just_shrink" type="text" default="0" label="" description="" />
+		<param name="watermark_position" type="text" default="left bottom" label="" description="" />
+		<param name="watermark_text" type="text" default="" label="" description="" />
+		<param name="allow_image_download" type="text" default="1" label="" description="" />
+		<param name="allow_print_button" type="text" default="1" label="" description="" />
+		<param name="hide_bottom_image" type="text" default="0" label="" description="" />
+		<param name="hide_mignifier" type="text" default="0" label="" description="" />
+		<param name="hide_single_image_view" type="text" default="0" label="" description="" />
+		<param name="hide_iphone_app_promo" type="text" default="0" label="" description="" />
+    </params>
+
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="im_th_w" type="text" default="120" label="" description="" />
+				<field name="im_th_h" type="text" default="120" label="" description="" />
+				<field name="im_mid_w" type="text" default="200" label="" description="" />
+				<field name="im_mid_h" type="text" default="200" label="" description="" />
+				<field name="im_max_w" type="text" default="600" label="" description="" />
+				<field name="im_max_h" type="text" default="600" label="" description="" />
+				<field name="gallery_color" type="text" default="aaaaaa" label="" description="" />
+				<field name="gallery_box_width" type="text" default="160" label="" description="" />
+				<field name="image_box_width" type="text" default="240" label="" description="" />
+				<field name="ordering_galleries" type="text" default="name" label="" description="" />
+				<field name="ordering_images" type="text" default="new" label="" description="" />
+				<field name="use_watermark" type="text" default="0" label="" description="" />
+				<field name="watermark_file" type="text" default="" label="" description="" />
+				<field name="use_voting" type="text" default="1" label="" description="" />
+				<field name="public_voting" type="text" default="1" label="" description="" />
+				<field name="galleries_a_row" type="text" default="3" label="" description="" />
+				<field name="images_a_row" type="text" default="3" label="" description="" />
+				<field name="galleries_limit" type="text" default="20" label="" description="" />
+				<field name="images_limit" type="text" default="20" label="" description="" />
+				<field name="display_total_galleries" type="text" default="1" label="" description="" />
+				<field name="display_galleries_limit_selector" type="text" default="1" label="" description="" />
+				<field name="display_gallery_limit_selector" type="text" default="1" label="" description="" />
+				<field name="display_owner_gallery" type="text" default="1" label="" description="" />
+				<field name="display_owner_image" type="text" default="1" label="" description="" />
+				<field name="display_date_gallery" type="text" default="1" label="" description="" />
+				<field name="display_gallery_sorting" type="text" default="1" label="" description="" />
+				<field name="display_name_gallery" type="text" default="1" label="" description="" />
+				<field name="display_name_image" type="text" default="1" label="" description="" />
+				<field name="display_date_image" type="text" default="1" label="" description="" />
+				<field name="display_image_views" type="text" default="1" label="" description="" />
+				<field name="display_user_copyright" type="text" default="1" label="" description="" />
+				<field name="date_format" type="text" default="%B %d, %Y" label="" description="" />
+				<field name="new_days" type="text" default="7" label="" description="" />
+				<field name="hide_fw_copyright" type="text" default="0" label="" description="" />
+				<field name="template" type="text" default="simple" label="" description="" />
+				<field name="im_just_shrink" type="text" default="0" label="" description="" />
+				<field name="watermark_position" type="text" default="left bottom" label="" description="" />
+				<field name="watermark_text" type="text" default="" label="" description="" />
+				<field name="allow_image_download" type="text" default="1" label="" description="" />
+				<field name="allow_print_button" type="text" default="1" label="" description="" />
+				<field name="hide_bottom_image" type="text" default="0" label="" description="" />
+				<field name="hide_mignifier" type="text" default="0" label="" description="" />
+				<field name="hide_single_image_view" type="text" default="0" label="" description="" />
+				<field name="hide_iphone_app_promo" type="text" default="0" label="" description="" />
+			</fieldset>
+		</fields>
+	</config>
+</install>

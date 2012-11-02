@@ -1,0 +1,1 @@
+Component Joomla v1.5

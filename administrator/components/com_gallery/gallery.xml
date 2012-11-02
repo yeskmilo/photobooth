@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>gallery</name>
+    <author>Diego Beltran</author>
+    <creationDate>30/10/2012</creationDate>
+    <license>GNU/GPL</license>
+    <version>1.0</version>
+    <description>Gallery proexport
+</description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.gallery.php</installfile>
+    <uninstallfile>uninstall.gallery.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_gallery">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>gallery.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_gallery.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">gallery</menu>
+    <submenu>
+        <menu link="option=com_gallery">gallery</menu>
+    </submenu>
+
+    <files>
+        <filename>gallery.xml</filename>
+    </files>
+    <files folder="administrator/components/com_gallery">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.gallery.php</filename>
+        <filename>gallery.php</filename>
+        <filename>uninstall.gallery.php</filename>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_gallery.menu.ini</language>
+        <language tag="en-GB">en-GB.com_gallery.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+
+    </params>
+
+</install>

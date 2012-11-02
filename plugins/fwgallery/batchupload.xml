@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="fwgallery" method="upgrade">
+	<name>FW Gallery - Batch Upload</name>
+	<creationDate>19 July 2012</creationDate>
+    <author>Fastw3b - We develop while you are thinking</author>
+    <authorEmail>dev@fastw3b.net</authorEmail>
+    <authorUrl>http://www.fastw3b.net</authorUrl>
+    <copyright>Copyright (C) 2012 Fastw3b. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.2.1</version>
+	<description><![CDATA[
+		<p><img style="margin: 5px; float: left;" alt="box" src="../plugins/fwgallery/batchupload/batchupload/assets/images/box.png" height="171" width="130" /></p>
+		<p>FW Gallery Batch Upload plugin has been installed successfully on your website!</p>
+		<p>Thank you for your choice! We hope that you will enjoy Fastw3b extensions!</p>
+		<p>&nbsp;</p>
+		<p>FW Gallery Batch Upload plugin allows you to upload multiple images by one click.</p>
+		<p>&nbsp;</p>
+		<p><span style="font-size: 12pt;"><strong>What to do next?</strong></span></p>
+		<ol>
+		<li>Go to Components &gt;&gt; FW Gallery &gt;&gt; Plugins</li>
+		<li>Enable FW Gallery Batch Upload plugin and upload images</li>
+		</ol>
+		<p><span style="font-size: 12pt;"><strong>Useful links:</strong></span></p>
+		<ul>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/9-fw-gallery-batch-upload.html">How-to-use guide &gt;&gt;</a></li>
+		<li>Be aware of our <a target="_blank" href="http://fastw3b.net/latest-news.html">latest news &gt;&gt;</a></li>
+		<li>View <a target="_blank" href="http://extensions.joomla.org/extensions/extension-specific/fw-gallery-extensions/13647">JED reviews and leave yours &gt;&gt;</a></li>
+		<li>Follow us on <a target="_blank" href="http://twitter.com/#!/Fastw3b">Twitter</a> or <a target="_blank" href="http://www.facebook.com/pages/Fastw3b/165610930146118">Facebook &gt;&gt;</a></li>
+		<li>Watch our video tutorial on <a target="_blank" href="http://www.youtube.com/user/fastw3b">Youtube &gt;&gt;</a></li>
+		<li>Check Fastw3b <a target="_blank" href="http://fastw3b.net/best-offer.html">best offers &gt;&gt;</a></li>
+		<li>Have any questions? Feel free to <a target="_blank" href="http://fastw3b.net/contact-us.html">contact us &gt;&gt;</a></li>
+		</ul>
+		<p><span style="font-size: 12pt;"><strong>Other FW Gallery add-ons:</strong></span></p>
+		<ul>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/7-fw-gallery.html">FW Gallery &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/6-fw-gallery-comment.html">FW Gallery Comment plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/12-fw-gallery-content-plugin.html">FW Gallery Content Plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/26-fw-gallery-facebook-plugin.html">FW Gallery Facebook plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/91--fw-gallery-picasa-import-plugin.html">FW Gallery Picasa Plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/104--fw-gallery-carousel-module.html">FW Gallery Carousel module &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/2-fw-gallery-fancy-slideshow.html">FW Gallery Fancy Slideshow module &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/36-fw-gallery-front-end-manager.html">FW Gallery Front-end Manager plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/14-fw-gallery-manual-resize.html">FW Gallery Manual Resize plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/3-fw-gallery-import.html">FW Gallery Import Plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/27-fw-gallery-jomsocial-plugin.html">FW Gallery JomSocial plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/13-fw-gallery-latest-module.html">FW Gallery Latest Module &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/28-fw-gallery-search-plugin.html">FW Gallery Search Plugin &gt;&gt;</a></li>
+		<li><a target="_blank" href="http://fastw3b.net/joomla-extensions/product/47-fw-gallery-video-plugin.html">FW Gallery Video Plugin &gt;&gt; </a></li>
+		</ul>
+		<p>&nbsp;</p>
+		<div>Developed by <a target="_blank" href="http://fastw3b.net/">Fastw3b</a></div>
+		<div>Copyright &copy; 2007 - 2012 Fastw3b</div>
+	]]></description>
+	<files>
+        <filename plugin="batchupload">batchupload.php</filename>
+        <folder>batchupload</folder>
+	</files>
+	<params>
+	</params>
+</install>

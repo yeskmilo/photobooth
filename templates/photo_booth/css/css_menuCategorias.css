@@ -1,0 +1,179 @@
+/* Root = Horizontal, Secondary = Vertical */
+
+ul.menu-menuCategorias {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 100%; /*For KHTML*/
+  list-style: none;
+  height: 100%;
+}
+
+ul.menu-menuCategorias li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 100%;
+}
+
+ul.menu-menuCategorias ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 48px;
+  left: 0;
+}
+
+ul.menu-menuCategorias ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul.menu-menuCategorias ul li {
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/ 
+}
+ul.menu-menuCategorias ul li a {
+	float: none !important; /*For Opera*/
+	float: left; /*For IE*/
+	display: block;
+	color: #666;
+	text-decoration: none;
+	height: auto !important;
+	height: 1%; /*For IE*/
+	background-color: #F8A61B;
+	padding-top: 0.4em;
+	padding-right: 0.8em;
+	padding-bottom: 0.4em;
+	padding-left: 0.8em;
+	font-size: 0.8em;
+	top: 100%;
+	width: 16em;
+	text-transform: none;
+}
+
+/* Root Menu */
+ul.menu-menuCategorias a {
+	float: none !important; /*For Opera*/
+	float: left; /*For IE*/
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	height: auto !important;
+	height: 1%; /*For IE*/
+	background-color: #F8A61B;
+	padding-top: 0.8em;
+	padding-right: 1.8em;
+	padding-bottom: 0.8em;
+	padding-left: 0.6em;
+	font-size: 1em;
+	text-transform: uppercase;
+	background-image: url(../images/fondo_menu_principal.gif);
+	background-repeat: no-repeat;
+	background-position: right 0.33em;
+}
+
+/* Root Menu Hover Persistence */
+ul.menu-menuCategorias a:hover,
+ul.menu-menuCategorias li:hover a,
+ul.menu-menuCategorias li.iehover a {
+	background-color: #DC841A;
+}
+
+/* 2nd Menu */
+
+ul.menu-menuCategorias li:hover li a,
+ul.menu-menuCategorias li.iehover li a {
+	float: none;
+	color: #FFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999;
+	border-left-color: #999;
+	height: 3em;
+	padding-bottom: 0.5em;
+	background-color: #F8A61B;
+	background-image: url(../images/fondo_li_menu_principal.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;	
+}
+
+/* 2nd Menu Hover Persistence */
+ul.menu-menuCategorias li:hover li a:hover,
+ul.menu-menuCategorias li:hover li:hover a,
+ul.menu-menuCategorias li.iehover li a:hover,
+ul.menu-menuCategorias li.iehover li.iehover a {
+  background: #DC841A;
+  color: #FFF;
+  background-image: url(../images/fondo_li_menu_principal.gif);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+/* 3rd Menu */
+ul#navmenu-h li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul.menu-menuCategorias li:hover li:hover li a:hover,
+ul.menu-menuCategorias li:hover li:hover li:hover a,
+ul.menu-menuCategorias li.iehover li.iehover li a:hover,
+ul.menu-menuCategorias li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul.menu-menuCategorias li:hover li:hover li:hover li a,
+ul.menu-menuCategorias li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul.menu-menuCategorias li:hover li:hover li:hover li a:hover,
+ul.menu-menuCategorias li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul.menu-menuCategorias ul ul,
+ul.menu-menuCategorias ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul.menu-menuCategorias li:hover ul ul,
+ul.menu-menuCategorias li:hover ul ul ul,
+ul.menu-menuCategorias li.iehover ul ul,
+ul.menu-menuCategorias li.iehover ul ul ul {
+  display: none;
+}
+
+ul.menu-menuCategorias li:hover ul,
+ul.menu-menuCategorias ul li:hover ul,
+ul.menu-menuCategorias ul ul li:hover ul,
+ul.menu-menuCategorias li.iehover ul,
+ul.menu-menuCategorias ul li.iehover ul,
+ul.menu-menuCategorias ul ul li.iehover ul {
+  display: block;
+}

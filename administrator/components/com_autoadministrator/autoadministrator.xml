@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+	<name>Auto Administrator</name>
+	<author>TGolden Group</author>
+	<creationDate>December 2011</creationDate>
+	<copyright>Copyright.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>tufik2@hotmail.com</authorEmail>
+	<authorUrl>www.tgoldengroup.com</authorUrl>
+	<version>0.0.1a</version>
+	<description>TGolden Group component</description>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">assets/install.sql</file>
+		</sql>
+	</install>
+	<administration>
+		<menu>Auto Administrator</menu>
+		<submenu>
+			<menu link="option=com_autoadministrator&amp;suboption=table_manager" alt="tables">Tables</menu>
+			<menu link="option=com_autoadministrator&amp;suboption=menu_manager" alt="menus">Menus</menu>
+		</submenu>
+		<files>  
+			<file>autoadministrator.php</file>  
+			<file>autoadministrator.xml</file>
+			<file>readme.txt</file>
+			<folder>assets</folder>  
+			<folder>menu_manager</folder>
+			<folder>panels</folder>
+			<folder>table_manager</folder>
+		</files>
+	</administration>
+</install>

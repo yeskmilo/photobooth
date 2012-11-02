@@ -1,0 +1,1139 @@
+                          /* Para resetear los estilos de los navegadores */
+						  						  
+* {  
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+	line-height: normal;
+}
+q:before,q:after {
+	content:'';
+}
+p {
+	font-size: 0.9em;
+}
+em {
+	font-style: italic;
+}
+
+                          /* HTML: etiquetas del lenguaje HTML */
+						  
+html {
+	background-color: #E9E4DC;
+	background-image: url(../images/fondo_pagina.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+body {
+	margin-right: auto;
+	margin-left: auto;
+	width: 60em;
+	font-family: "Trebuchet MS", Arial, serif;
+	color: #2F2F2F;
+}
+a:link {
+	color: #03C;
+}
+a:visited {
+	color: #93C;
+}
+a:hover {
+	color: #09F;
+}
+
+                                      /* MAQUETACIÓN */
+#contenedor {
+	margin-top: 0.5em;
+	overflow: hidden;
+	position: relative;
+}
+
+           /* Encabezado */
+#encabezado {
+	background-image: url(../images/fondo_encabezado.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 8.5em;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* div tituloEncabezado: contiene el user1: (selección de idioma), h1 y el user2: (tagline)*/
+
+#tituloEncabezado {
+	clear: both;
+	float: left;
+	height: 100%;
+	width: 20em;
+	overflow: hidden;
+	position: relative;
+}
+
+/* Seleccionar idioma */
+
+.moduletable-chooseLanguage {
+	float: left;
+	margin-top: 1em;
+	margin-left: 1em;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:100;
+}
+
+/* div tituloEncabezadointerno: contiene el h1 y el user2: (tagline) */
+
+#tituloEncabezadointerno {
+	clear: both;
+	float: left;
+	height: 4em;
+	width: 11em;
+	overflow: hidden;
+    position: absolute;
+    left: 1em;
+    top: 3em;
+    z-index: 0;
+}
+
+/* Título de la página: h1 */
+
+h1 {
+	height: 37px;
+	width: 179px;
+	position: relative;
+	float: left;
+	clear: left;
+}
+h1 span {
+	background-image:url(../images/titulo_colombia.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	font-size:0em;
+	height:100%;
+	position:absolute;
+	width:100%;
+}
+h1 span.portal {
+    display: none;
+}
+
+/* tagline */
+
+.moduletable-tagline {
+	clear: left;
+	margin-top: 0.2em;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	letter-spacing: 0.02em;
+	display: block;
+	overflow: hidden;
+	color: #2D4854;
+	text-align: right;	
+}
+
+/* div componentesEncabezado: contiene el menú superior y el user3: (buscador) */
+
+#componentesEncabezado {
+	float: right;
+	height: 100%;
+	width: 36.2em;
+	overflow: hidden;     
+}
+
+/* Menu meinmenu: ocultarlo para esconder el vinculo al inicio */
+
+.moduletable-menuInicio {
+}
+
+/* Menú de pestañas: Menú superior */
+
+.moduletable-menuSuperior {
+	margin-top: 0.4em;
+}
+.moduletable-menuSuperior ul {
+	margin: 0em;
+	padding: 0em;
+	background-color: #E9E4DC;
+}
+.moduletable-menuSuperior ul li {
+	display: block;
+	float: left;
+	background-image: none;
+	width: 6.8em;
+	margin-right: 0.125em;
+	padding-left: 0em;
+	overflow: hidden;
+	height: 3em;	
+}
+.moduletable-menuSuperior ul li a {
+	text-decoration: none;
+	text-align: left;
+	font-size: 0.8em;
+	line-height: 105%;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+.moduletable-menuSuperior ul li a:link, .moduletable-menuSuperior ul li a:visited, .moduletable-menuSuperior ul li a:hover {
+	color: #FFF;
+}
+
+/* pestaña turista internacional */
+
+.moduletable-menuSuperior a#turistaInternacional {
+	background-image: url(../images/pestana_turistaintenacional_hover.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 0.7em;
+	height: 3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+	overflow: hidden;
+	width: 6.5em;
+}
+
+/* pestaña congresos e incentivos */
+
+.moduletable-menuSuperior a#congresos:link {
+	background-image: url(../images/pestana_congresos_active.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 1.4em;
+	height: 2.3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+	overflow: hidden;
+	width: 6.5em;
+}
+.moduletable-menuSuperior a#congresos:visited {
+	background-image: url(../images/pestana_congresos_active.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 1.4em;
+	height: 2.3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+	overflow: hidden;
+	width: 6.5em;
+}
+.moduletable-menuSuperior a#congresos:hover {
+	background-image: url(../images/pestana_congresos_hover.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 0.7em;
+	height: 3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+	overflow: hidden;
+	width: 6.5em;
+}
+
+/* Menú de pestañas: Menú superior congresos e incencitivos */
+
+.moduletable-menuSuperiorcongresos {
+	margin-top: 0.4em;
+}
+.moduletable-menuSuperiorcongresos ul {
+	margin: 0em;
+	padding: 0em;
+	background-color: #E9E4DC;
+}
+.moduletable-menuSuperiorcongresos ul li {
+	display: block;
+	float: left;
+	background-image: none;
+	width: 6.8em;
+	margin-right: 0.125em;
+	padding-left: 0em;
+	overflow: hidden;
+	height: 3em;	
+}
+.moduletable-menuSuperiorcongresos ul li a {
+	text-decoration: none;
+	text-align: left;
+	font-size: 0.8em;
+	line-height: 105%;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+.moduletable-menuSuperiorcongresos ul li a:link, .moduletable-menuSuperiorcongresos ul li a:visited, .moduletable-menuSuperiorcongresos ul li a:hover {
+	color: #FFF;
+}
+
+/* pestaña congresos e incentivos */
+
+.moduletable-menuSuperiorcongresos a#congresos {
+	background-image: url(../images/pestana_congresos_hover.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 0.7em;
+	height: 3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+}
+
+/* pestaña turista internacional */
+
+.moduletable-menuSuperiorcongresos a#turistaInternacional:link {
+	background-image: url(../images/pestana_turistaintenacional_active.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 1.4em;
+	height: 2.3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+}
+.moduletable-menuSuperiorcongresos a#turistaInternacional:visited {
+	background-image: url(../images/pestana_turistaintenacional_active.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 1.4em;
+	height: 2.3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+}
+.moduletable-menuSuperiorcongresos a#turistaInternacional:hover {
+	background-image: url(../images/pestana_turistaintenacional_hover.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 0.7em;
+	height: 3em;
+	padding-right: 1.5em;
+	padding-left: 0.3em;
+	float: left;
+}
+
+/* Buscador */
+
+.moduletable-buscador {
+	float: right;
+	clear: both;
+	margin-top: 2em;
+	margin-right: 1em;
+}
+.moduletable-buscador #mod_search_searchword {
+	margin-right: 0.5em;
+	border: 1px solid #BABA94;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+#mod_search_searchword {
+	background-image: url(../images/lupa_buscador.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 1.5em;
+	padding-right: 0.5em;
+	width: 17.5em;
+}
+#mod_search_searchword:focus {
+	border: 0.125em solid #9F0;
+	background-color: #FFF;
+	height: 1.3em;
+	padding-top: 0.2em;
+}
+
+/* imagen de la hoja en el inicio */
+
+#hojas {
+	margin-top: 3em;
+	margin-left: 13.5em;
+	position: absolute;
+	z-index: 100;
+}
+
+/* div id: Centro de atención visual: frontpage slideshow */
+
+#centroatencionVisual {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	clear: both;
+	left: 0em;
+	top: 0em;
+	position: relative;
+}
+
+/* Menú de la categorias de las pestañas de colores: menú turista internacional  */
+
+#menuCategoria {
+	clear: both;
+	position: relative;
+	float: left;
+}
+
+/* Menú presonalizado de la categorias de las pestañas de colores: menú turista internacional */
+
+.moduletable-menuTI {
+	background-color: #F8A61B;
+	width: 59.875em;
+	border-right-width: 0.0625em;
+	border-left-width: 0.0625em;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #D8D6BE;
+	border-left-color: #D8D6BE;
+    left:0;
+    top:0px;
+    z-index:100;
+	height: 3em;
+	display: block;
+}
+.moduletable-menuTI ul{
+	height: 2.6875em;
+	border-bottom-width: 0.3125em;
+	border-bottom-style: solid;
+	border-bottom-color: #C97E00;
+	overflow: hidden;
+	text-align: center;
+}
+.moduletable-menuTI ul li {
+    display: inline;
+}
+.moduletable-menuTI ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.moduletable-menuTI ul li a:link, .moduletable-menuTI ul li a:visited, .moduletable-menuTI ul li a:hover {
+    color: #251600;
+}
+.moduletable-menuTI a#ti_adondeir {
+	float: left;
+	height: 1em;
+	width: 7em;
+	display: block;
+	padding-top: 0.7em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-image: url(../images/fondo_menuTI_vinculos.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.moduletable-menuTI a#ti_adondeir:hover {
+    background-color: #C97E00;
+	color: #FFF;
+}
+.moduletable-menuTI a#ti_quehacer {
+	float: left;
+	height: 1em;
+	width: 7em;
+	display: block;
+	padding-top: 0.7em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-image: url(../images/fondo_menuTI_vinculos.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.moduletable-menuTI a#ti_quehacer:hover {
+    background-color: #C97E00;
+	color: #FFF;
+}
+.moduletable-menuTI a#ti_colombia {
+	float: left;
+	height: 1em;
+	width: 4.7em;
+	display: block;
+	padding-top: 0.7em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-image: url(../images/fondo_menuTI_vinculos.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.moduletable-menuTI a#ti_colombia:hover {
+    background-color: #C97E00;
+	color: #FFF;
+}
+.moduletable-menuTI a#ti_informacionpractica {
+	float: left;
+	height: 1em;
+	width: 12em;
+	display: block;
+	padding-top: 0.7em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-image: url(../images/fondo_menuTI_vinculos.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.moduletable-menuTI a#ti_informacionpractica:hover {
+    background-color: #C97E00;
+	color: #FFF;
+}
+.moduletable-menuTI a#ti_multimedia {
+	float: left;
+	height: 1em;
+	width: 5.5em;
+	display: block;
+	padding-top: 0.7em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-image: url(../images/fondo_menuTI_vinculos.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.moduletable-menuTI a#ti_multimedia:hover {
+    background-color: #C97E00;
+	color: #FFF;
+}
+.moduletable-menuTI a#ti_distancias {
+	float: left;
+	height: 1em;
+	width: 5em;
+	display: block;
+	padding-top: 0.7em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-image: url(../images/fondo_menuTI_vinculos.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.moduletable-menuTI a#ti_distancias:hover {
+    background-color: #C97E00;
+	color: #FFF;
+}
+
+/* div id columnas: para contener 3 de ellas */
+
+#columnas {
+    clear: both;
+	overflow: hidden;
+	width: 59.875em;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #D8D6BE;
+	border-bottom-color: #D8D6BE;
+	border-left-color: #D8D6BE;
+	background-image: url(../images/fondo_columnas.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+/* COLUMNAS 100% ALTAS 
+
+#columnaIzquierda, #columnaCentral, #columnaDerecha {
+	margin-bottom: -32768px;
+	padding-bottom: 32768px;
+}*/
+
+/* div id columnaIzquierda */ 
+
+#columnaIzquierda {
+	float: left;
+	width: 17em;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-left: 0.4375em;
+}
+
+/* moduletable-mapaColombia */
+
+.moduletable-mapaColombia {
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+
+/* moduletable-video */
+
+.moduletable-video {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.moduletable-video h2 {
+	font-size: 0.75em;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #666;
+}
+.moduletable-video h3 {
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #333;
+	display: block;
+	margin-bottom: 0.5em;
+	margin-top: 1.2em;
+}
+
+/* div id columnaCentral */
+
+#columnaCentral {
+	float: left;
+	width: 29em;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+/* Informe especial */
+
+.moduletable-informeEspecial {
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D8D6BE;	
+}
+.moduletable-informeEspecial h2 {
+	font-size: 0.75em;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #666;
+}
+.moduletable-informeEspecial .newsfeed_item-informeEspecial p, .moduletable-informeEspecial .newsfeed_item-informeEspecial p.principal {
+	font-size: 1em;
+	margin-bottom: 0.2em;
+}
+.newsfeed-informeEspecial, .newsfeed_item-informeEspecial {
+	overflow: hidden;
+	height: 100%;
+}
+.contenidoInforme h3 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+.contenidoInforme h3 a {
+	text-decoration: none;
+	color: #03C;
+}
+.moduletable-informeEspecial .newsfeed_item-informeEspecial img {
+	float: right;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
+	margin-bottom: 3em;
+	border: 1px solid #333333;
+}
+.moduletable-informeEspecial a {
+	font-size: 0.7em;
+}
+.leerMasInforme {
+	font-size: 0.68em;
+}
+
+/* Imágenes blog de la página de inicio */
+
+.blogz.img_caption.right {
+    float: right;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+}
+.blog .leading .img_caption.left {
+    float: left;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+}
+.blog .leading .img_caption.right p, .blog .leading .img_caption.left p {
+	display: none;
+}
+
+#columnaCentral .blog .imagenIzquierda {
+    float: left !important;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	margin-left: 0em;
+	background-color: #FFF;
+	border: 1px solid #666;
+}
+#columnaCentral .blog .imagenDerecha {
+	float: right !important;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	background-color: #FFF;
+	border: 1px solid #666;
+}
+#columnaCentral .blog .imagenIzquierda p, #columnaCentral .blog .imagenDerecha p {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 0.4em;
+	line-height: 120%;
+	margin-bottom: 0em;
+	width: 250px;
+}
+
+/* ocultar ruta de migas para la página de inicio  */
+
+#breadcrumbs {
+    display: none;
+}
+
+/* contenido del blog de la página de inicio */
+
+h2.destinos {
+	font-size: 0.75em;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #666;
+}
+.blog {
+	clear: both;
+}
+.blog .leading {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	margin-top: 2em;
+}
+.blog .leading h2.contentheading {
+	font-size: 1em;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 0.5em;
+}
+.blog .leading p, .blog .leading p.principal {
+	font-size: 0.8125em;
+	margin-bottom: 1em;
+}
+.blog .leading p a.readon {
+	text-decoration: none;
+	width: 100%;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 2em;
+	border-top-width: 0.0625em;
+	border-bottom-width: 0.0625em;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #D8D6BE;
+	border-bottom-color: #D8D6BE;
+	padding-right: 1em;
+	background-image: url(../images/vineta_noticias_inicio.gif);
+	background-repeat: no-repeat;
+	background-position: 0.3em center;
+}
+.blog .leading p a.readon:hover {
+	background-color: #E2E2E2;
+	color: #06C;
+}
+.blog .leading p.buttonheading, .blog .leading p.iteminfo {
+	display: none;
+}
+.blog span.leading_separator {
+     display: none;
+}
+.blog p.counter {
+	text-align: center;
+	display: block;
+	margin-top: 0.3mm;
+	background-color: #EBEBEB;
+}
+.blog ul.pagination {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	font-size: 0.8em;
+	margin-bottom: 0.3em;
+	margin-top: 0.3em;
+}
+.blog ul.pagination li {
+    display: inline;
+	padding-right: 0.5em;
+}
+
+/* contenido del blog para ocultar el h1 */
+
+h1.componentheading {
+    display: none;
+}
+
+/* div id columnaDerecha */
+
+#columnaDerecha {
+	float: right;
+	width: 11.9em;
+	padding-top: 0.5em;
+}
+
+/* vínculos rápidos */
+
+.moduletable-vinculosRapidos {
+	margin-right: 0.4375em;
+	margin-left: 0.5em;
+}
+.moduletable-vinculosRapidos h2 {
+	font-size: 0.75em;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #666;
+}
+.moduletable-vinculosRapidos h3 {
+	font-size: 0.75em;
+	color: #333;
+	font-weight: bold;
+}
+.moduletable-vinculosRapidos p {
+	padding-left: 1em;
+	margin-bottom: 1em;
+	font-size: 0.75em;
+	line-height: 180%;
+}
+
+/* Yo tambien estube alli */
+
+.moduletable-yotambien {
+	margin-right: 0.4375em;
+	margin-left: 0.5em;
+}
+.moduletable-yotambien h2 {
+	font-size: 0.75em;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #666;
+}
+.moduletable-yotambien img {
+	margin-left: 0.8em;
+}
+.moduletable-yotambien p {
+	font-size: 0.75em;
+	line-height: 110%;
+	margin-top: 0.5em;
+}
+.moduletable-yotambien p a {
+	font-size: 1.2em;
+	line-height: 120%;
+}
+
+/* Próximas fiestas */
+
+.moduletable-calendario {
+   background-color: #EDEDE4;
+   margin-top: 0.5em;
+   padding: 0.5em;
+}
+.moduletable-calendario h2 {
+	font-size: 0.85em;
+	color: #333;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.moduletable-calendario ul {
+	background-image: url(../images/bala_ul_calendario.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.3em;
+}
+.moduletable-calendario ul li {
+	padding-right: 0.3em;
+	padding-bottom: 0.3em;
+	background-image: url(../images/bala_ancla_calendario.gif);
+	background-repeat: no-repeat;
+	background-position: left 0.5em;
+	padding-left: 0.7em;
+	padding-top: 0.45em;
+}
+.moduletable-calendario ul li a { 
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 0.4em;
+}
+.moduletable-calendario a {
+    font-size: 0.75em;
+}
+.moduletable-calendario span.eventsdate {
+	font-size: 0.75em;
+}
+
+/* div complementarios */
+
+#complementarios {
+	background-color: #F4F4F0;
+	clear: both;
+}
+
+/* div imagénes panorámicas: contiene los monentarios de los colombianos y la imagen de fotografías 360° */
+
+#imagenesPanoramicas {
+	padding-top: 1em;
+	border-top-width: 0.0625em;
+	border-top-style: solid;
+	border-top-color: #D8D6BE;
+	padding-bottom: 1em;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	background-color: #FFF;
+}
+
+/* Los colombianos opinan */
+
+.moduletable-colombianosOpinan {
+	float: left;
+	height: 100%;
+	width: 18em;
+	clear: left;
+	background-image: url(../images/titulo_los_colombianos_opinan.gif);
+	background-repeat: no-repeat;
+	background-position: 1em 1em;
+}
+.moduletable-colombianosOpinan blockquote {
+	background-image: url(../images/fondo_blockquote_opinan_colombianos.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 10.5em;
+	width: 12.375em;
+	padding: 0.5em;
+	margin-left: 2.5em;
+}
+.moduletable-colombianosOpinan blockquote p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.05em;
+	font-style: italic;
+	line-height: 140%;
+	color: #636332;
+	background-image: url(../images/comillas_blockquote_opinan_colombianos.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 0.5em;
+	padding-left: 2.5em;
+}
+.moduletable-colombianosOpinan p.opinionColombiano {
+	font-size: 0.7em;
+	font-weight: bold;
+	margin-left: 10.5em;
+}
+.moduletable-colombianosOpinan p.opinionColombiano span {
+	display: block;
+	font-weight: normal;
+}
+
+/* fotos panorámicas */
+
+.moduletable-fotosPanoramicas h2 {
+	font-size: 0.75em;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #666;
+}
+.moduletable-fotosPanoramicas {
+	float: right;
+	padding-top: 1em;
+	padding-right: 0.5em;
+}
+.moduletable-fotosPanoramicas h3 {
+	padding-top: 5em;
+	padding-left: 1em;
+	font-size: 1.5em;
+}
+.moduletable-fotosPanoramicas h3 a {
+    text-decoration: none;
+	color: #FFF;
+}
+.moduletable-fotosPanoramicas h3 a:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+.moduletable-fotosPanoramicas p {
+	color: #FF6;
+	padding-left: 2em;
+}
+
+/* rss-suscripcion: contiene el rss y el formulario de suscripción */
+
+#rssSuscripcion {
+	overflow: hidden;
+	width: 100%;
+	background-color: #F4F4F0;
+}
+#rssSuscripcion {
+	float: right;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D8D6BE;
+}
+
+/* moduletable-rss */
+
+.moduletable-rss {
+	float: left;
+
+	margin-left: 1em;
+}
+.moduletable-rss a {
+	background-image: url(../images/rss.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 0.2em;
+	padding-bottom: 0.5em;
+	padding-left: 3.5em;
+	font-size: 0.75em;
+	line-height: 110%;
+	display: block;
+	height: 40px;
+}
+.moduletable-rss p span {
+	display: block;
+}
+span.rssSinVinculo {
+	font-size: 1.3em;
+	color: #666666;
+	text-decoration: none;
+}
+
+/* moduletable-suscripcion */
+
+.moduletable-suscripcion {
+	float: right;
+	margin-top: 0.5em;
+	margin-right: 1em;	
+}
+.moduletable-suscripcion h2 {
+	font-size: 0.75em;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #666;
+	float: left;
+	margin-top: 0.3em;
+	margin-right: 0.5em;
+}
+.moduletable-suscripcion h3, .moduletable-suscripcion form, .moduletable-suscripcion form .nombre, .moduletable-suscripcion form .email, .moduletable-suscripcion .enviar {
+	float: left;
+}
+.moduletable-suscripcion form .nombre, .moduletable-suscripcion form .email, .moduletable-suscripcion .enviar {
+	margin-left: 0.5em;
+}
+.moduletable-suscripcion form #nnombreInscripcion, .moduletable-suscripcion form #email, .moduletable-suscripcion #correoInscripcion {
+	font-size: 0.7em;
+}
+.moduletable-suscripcion form #nombreInscripcion, .moduletable-suscripcion form #correoInscripcion {
+	height: 1.3em;
+	border: 1px solid #BABA94;
+}
+.moduletable-suscripcion form #nombreInscripcion:focus, .moduletable-suscripcion form #correoInscripcion:focus {
+ 	border: 0.125em solid #9F0;
+	background-color: #DFF3B4;
+	height: 1.3em;
+	padding-top: 0.23em; 
+}
+.moduletable-suscripcion label {
+	font-size: 0.7em;
+}
+
+/* div piedePagina */
+
+#piedePagina {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	background-color: #FFF;
+	padding-top: 0.5em;
+	border-top-width: 0.0625em;
+	border-top-style: solid;
+	border-top-color: #D8D6BE;
+	background-image: url(../images/ornamento02.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+/* moduletable-contactenos */
+
+.moduletable-contactenos {
+	font-size: 0.8em;
+	height: 13em;
+	width: 25em;
+	margin-top: 2em;
+	float:left;
+	background-image: url(../images/ornamento01.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.moduletable-contactenos h2 {
+	float: left;
+	font-weight: bold;
+	margin-left: 2em;
+}
+.moduletable-contactenos p {
+	float: right;
+	width: 18em;
+	line-height: 120%;
+	color: #666;
+}
+
+/* moduletable-vinculos */
+
+.moduletable-vinculos {
+	margin-top: 1em;
+	margin-left: 3em;
+}
+.moduletable-vinculos, .moduletable-vinculos p {
+	float: left;
+}
+
+/* div copyright */
+
+#copiright {
+    padding-top: 0.5em;
+}
+.moduletable-menuLegales ul {
+	margin-left: 1em;
+}
+.moduletable-menuLegales ul li {
+	display: inline;
+	margin-right: 1em;
+}
+.moduletable-menuLegales ul li a {
+	font-size: 0.7em;
+	text-decoration: none;
+	font-weight: bold;
+}
+.moduletable-copyright {
+	margin-left: 1.2em;
+	padding-bottom: 3em;
+}
+.moduletable-copyright p {
+	font-size: 0.6em;
+	margin-top: 1em;
+}
+.complementarios {
+	height: 100%;
+	overflow: hidden;
+	background-color: #CCCCCC;
+}
+#irContenido {
+	float: left;
+	margin-top: -200px;
+}

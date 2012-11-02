@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+    <name>FW Gallery Tmpl Simple</name>
+    <creationDate>13 September 2012</creationDate>
+    <author>Fastw3b - We develop while you are thinking</author>
+    <authorEmail>support@fastw3b.net</authorEmail>
+    <authorUrl>http://www.fastw3b.net</authorUrl>
+    <copyright>Copyright (C) 2012 Fastw3b. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>1.3.0</version>
+    <description>FW Gallery simple template</description>
+    <installfile>install.php</installfile>
+	<files folder="site">
+		<folder>assets</folder>
+		<folder>html</folder>
+		<filename>index.html</filename> 
+	</files>
+	<administration>
+		<files folder="admin">
+			<filename>index.html</filename> 
+			<filename>install.php</filename> 
+		</files>
+	</administration>
+</install>

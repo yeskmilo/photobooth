@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<install type="module" version="1.0.0">
+
+	<name>Registro</name>
+
+	<author>Diego Beltran</author>
+
+	<creationDate>Octubre 2012</creationDate>
+
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<authorEmail>diego.beltran@mccann.com.co</authorEmail>
+
+	<authorUrl>mccann.com.co</authorUrl>
+
+	<version>1.0.0</version>
+
+	<description>Este modulo Login</description>
+
+	<files>
+
+		<filename module="mod_registro">mod_registro.php</filename>
+
+	</files>
+
+	
+
+</install>
+
